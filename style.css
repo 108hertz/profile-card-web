@@ -337,14 +337,14 @@ h1 {
     position: relative;
 }
 
-.project-link .heart {
+.project-link .person {
     display: inline-block;
     margin: 0 1px;
     transition: transform 0.3s ease;
     filter: brightness(1.2);
 }
 
-.project-link:hover .heart {
+.project-link:hover .handshake {
     transform: scale(1.2);
     animation: wave 1.2s infinite;
 }
