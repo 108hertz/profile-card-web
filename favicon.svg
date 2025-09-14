@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        @keyframes gradientAnimation {
+            0% { stop-color: #ee7752; }
+            33% { stop-color: #e73c7e; }
+            66% { stop-color: #23a6d5; }
+            100% { stop-color: #23d5ab; }
+        }
+        #grad1 stop {
+            animation: gradientAnimation 4s infinite alternate;
+        }
+        #grad1 stop:nth-child(2) {
+            animation-delay: 1s;
+        }
+        #grad1 stop:nth-child(3) {
+            animation-delay: 2s;
+        }
+    </style>
+    <defs>
+        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#ee7752;stop-opacity:1" />
+            <stop offset="50%" style="stop-color:#e73c7e;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#23a6d5;stop-opacity:1" />
+        </linearGradient>
+    </defs>
+    <path d="M16 2C8.268 2 2 8.268 2 16s6.268 14 14 14 14-6.268 14-14S23.732 2 16 2zm0 25.5C9.107 27.5 3.5 21.893 3.5 15S9.107 2.5 16 2.5 28.5 8.107 28.5 15 22.893 27.5 16 27.5z" fill="url(#grad1)"/>
+    <path d="M16 7c-4.971 0-9 4.029-9 9s4.029 9 9 9 9-4.029 9-9-4.029-9-9-9zm0 16.5c-4.142 0-7.5-3.358-7.5-7.5S11.858 8.5 16 8.5s7.5 3.358 7.5 7.5-3.358 7.5-7.5 7.5z" fill="url(#grad1)"/>
+</svg>
